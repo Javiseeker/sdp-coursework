@@ -11,3 +11,12 @@ Software Development Practice Coursework - Software Repositories Mining
 3. run command: dotnet restore
 4. run command: dotnet build
 5. run command: dotnet run
+
+## .NET Secrets in MacOS
+1. VS Code Extensions -> search for "C# Dev Kit" -> install it
+
+2. run command: dotnet user-secrets init
+
+3. add secrets with this command: dotnet user-secrets set "GithubToken" "YourTokenValue"
+
+4. optional run command to list user secrets: dotnet user-secrets list

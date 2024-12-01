@@ -30,11 +30,13 @@ public static class Program
         {
             throw new ArgumentException(
                 @"GithubToken must be set in Secrets before running the application.
-                Please Right Click on the 'SDP.SoftwareRepositoryMining' Project,
+                For windows users, please Right Click on the 'SDP.SoftwareRepositoryMining' Project,
                 Select 'Manage User Secrets' option and add this JSON variable.
                 In order to generate the Github Token...
                     1. Go to https://github.com/settings/personal-access-tokens/new
                         1.1 You might need to perform MFA before creating a fine-grained token.
+                For MacOS users, follow readme file.
+
                 ");
         }
 
